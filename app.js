@@ -16,7 +16,7 @@ const server = http.createServer((req, res) => {
   // Verificar a pergunta e escolher uma resposta
   let resposta;
   if (params.pergunta == 'melhor-filme') {
-    resposta = 'star wars';
+    resposta = 'Avengers Endgame';
   }
   else if (params.pergunta == 'melhor-tecnologia-backend') {
     resposta = 'nodejs';
